@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script> -->
+</head>
+<body>
+    <!-- <div id="header"></div> -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-pills me-auto mb-2 mb-lg-0 " id="pills-tab" role="tablist">
+                    <li class="nav-item " role="presentation">
+                        <!-- <a class="nav-link active text-white" aria-current="page" href="#">Home</a> -->
+                        <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><a class="text-white text-decoration-none" href = "index.html">Home</a></button>
+                    </li>
+                    <!-- <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Profiles</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="./vivekananda.html">Swami Vivekananda</a></li>
+                            <li><a class="dropdown-item " href="./kalam.html">Abdhul_Kalam</a></li>
+                            <li><a class="dropdown-item " href="./bhagath.html">Bhagat Singh</a></li>
+                            <li><a class="dropdown-item " href="./sarogini.html">Sarojini-naidu</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item dropdown" role="presentation">
+                        <button class="nav-link dropdown-toggle text-white" aria-expanded="false" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profiles</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="./vivekananda.html">Swami Vivekananda</a></li>
+                            <li><a class="dropdown-item " href="./kalam.html">Abdhul_Kalam</a></li>
+                            <li><a class="dropdown-item " href="./bhagath.html">Bhagat Singh</a></li>
+                            <li><a class="dropdown-item " href="./sarogini.html">Sarojini-naidu</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled " aria-disabled="true">Logout</a>
+                    </li> -->
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Logout</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="container text-start m-5">
+            <div class="row ">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                    <div class="card" style="width: 18rem; background-color: #90ee90;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/220px-Swami_Vivekananda-1893-09-signed.jpg"
+                            class="card-img-top" alt="image1">
+                        <div class="card-body">
+                            <h5 class="card-title">Swami Vivekananda</h5>
+                            <p class="card-text">Swami Vivekananda Bengali,12 January 1863 - 4 July 1902- born,
+                                Narendranath
+                                Datta , was an Indian Hindu monk, philosopher, author, religious teacher, and the chief
+                                disciple
+                                of the Indian mystic Ramakrishna.</p>
+                            <a href="./vivekananda.html" class="btn btn_1 text-white">click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                    <div class="card " style="width: 18rem;background-color: #add8e6;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A._P._J._Abdul_Kalam.jpg/220px-A._P._J._Abdul_Kalam.jpg"
+                            class="card-img-top" alt="image1">
+                        <div class="card-body">
+                            <h5 class="card-title">A. P. J. Abdul Kalam</h5>
+                            <p class="card-text">Avul Pakir Jainulabdeen Abdul Kalam BR (15 October 1931 - 27 July 2015)
+                                was an Indian aerospace scientist and statesman who served as the 11th president of
+                                India from 2002 to 2007. Born and raised in a Muslim family in Rameswaram, Tamil Nadu,
+                                he studied physics and aerospace engineering. </p>
+                            <a href="./kalam.html" class="btn btn_2 text-white">click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                    <div class="card" style="width: 18rem;background-color: #ffb6c1;">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bhagat_Singh_1929.jpg/220px-Bhagat_Singh_1929.jpg"
+                            class="card-img-top" alt="image1">
+                        <div class="card-body">
+                            <h5 class="card-title">Bhagat Singh</h5>
+                            <p class="card-text">Bhagat Singh (28 September 1907[1] - 23 March 1931) was an Indian
+                                anti-colonial revolutionary,[3] who participated in the mistaken murder of a junior
+                                British police officer in December 1928[4] in what was to be retaliation for the death
+                                of an Indian nationalist.</p>
+                            <a href="./bhagath.html" class="btn btn_3 text-white">click Here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center g-3 mb-3">
+                    <div class="card" style="width: 18rem;background-color: #ffeb85;">
+                        <img src="https://www.snmcagra.ac.in/images/history/sarojini-naidu.jpg" class="card-img-top"
+                            alt="image1">
+                        <div class="card-body">
+                            <h5 class="card-title">Sarojini Naidu</h5>
+                            <p class="card-text">Sarojini Naidu (14 February 1879 - 2 March 1949)[1] was an Indian
+                                political activist and poet who served as the first Governor of United Provinces, after
+                                India's independence. She played an important role in the Indian independence movement
+                                against the British Raj.</p>
+                            <a href="./sarogini.html" class="btn btn_4 text-white">click Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
